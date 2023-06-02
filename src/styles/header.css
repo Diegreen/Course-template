@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    height: 7%;
+    background-color: #212529;
+    color: white;
+    font-size: 28px;
+    line-height: 44px;
+    border-bottom: 3px solid #4C6EF5;
+    font-family: 'Inter', sans-serif;
+}
+
+.header__button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.8%;
+    color: white;
+}
+
+.header__button:hover {
+    background-color: #4C6EF5;
+    cursor: pointer;
+}

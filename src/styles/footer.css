@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.5rem;
+    background-color: #212529;
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}

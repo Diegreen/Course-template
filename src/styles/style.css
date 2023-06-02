@@ -1,0 +1,11 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 98.5vh;
+    width: 98.5vw;
+}
