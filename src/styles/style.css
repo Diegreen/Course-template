@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+outline: none;
+}
+
 body {
     height: 98.5vh;
     width: 98.5vw;

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/src/styles/header.css">
     <link rel="stylesheet" href="/src/styles/main.css">
     <link rel="stylesheet" href="/src/styles/footer.css">
-
+     <link rel="stylesheet" href="/src/styles/form.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <title>Página Institucional Genérica</title>
 </head>
@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <p>Generic Course</p>
-        <button class="header__button">Entrar para a próxima turma</button>
+        <button class="header__button open__modal" >Entrar para a próxima turma</button>
     </header>
     <main class="main">
         <div class="main__firstContainer">
@@ -26,6 +26,16 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s</p>
             <span>Sobre nós</span>
+            <dialog class="modal">
+                <section class="modal__div">
+                       <h3>Cadastro</h3>
+                       <button class="X">X</button>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       <input class="modal__input" type="email" placeholder="Digitar email">
+                       <button class="modal__button--cadastro"> Entrar na lista para próxima turma</button>
+                </section>
+            </dialog>
+            <div class="modal__background"></div>
         </div>
         <div class="main__secondContainer">
             <h2>Quem somos nós?</h2>
@@ -40,7 +50,7 @@
                 <h2>Dúvidas frequentes</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dolorem veritatis veniam fuga. Itaque
                     error quae et magni maxime ab quibusdam enim, animi dicta. Illo odio eum ex quo at?</p>
-                <span>Entrar para próxima turma</span>
+                <span class="open__modal">Entrar para próxima turma</span>
             </div>
             <div class="main__secondSection--secondDiv">
                 <span>
@@ -129,7 +139,7 @@
     <footer class="footer">
         <h3>Generic Course</h3>
     </footer>
-    <script src="./src/scripts/script.js"></script>
+    <script src="./src/scripts/script.js" defer></script>
 </body>
 
 </html>
