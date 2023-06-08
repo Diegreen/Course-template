@@ -188,7 +188,7 @@ h2 {
     justify-content: center;
     flex-direction: column;
     background-color: var(--blue-color);
-    color: white;
+    color: var(--white-color);
     padding: 30px;
     max-height: 420px;
     max-width: 446px;
