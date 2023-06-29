@@ -1,5 +1,5 @@
 function openModal () {
-    const buttons = document.querySelector('.open__modal')
+    const buttons = document.querySelector(".open__modal")
     const modalContainer = document.querySelector('.modal')
     const modalBackground = document.querySelector('.modal__background');
 
